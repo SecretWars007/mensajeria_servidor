@@ -6,7 +6,7 @@ import 'package:web_socket_channel/web_socket_channel.dart';
 
 void main() async {
   // Tomar el puerto de Render o usar 8080 localmente
-  final port = int.parse(Platform.environment['PORT'] ?? '8080');
+  final port = int.parse(Platform.environment['PORT'] ?? '1982');
 
   // Lista de conexiones activas
   final List<WebSocketChannel> clients = [];
